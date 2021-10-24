@@ -1,0 +1,746 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'ko' Physical Memory: 8048 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/wndud/RowingRush_VR/RowingRush
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+6620
+Successfully changed project path to: C:/Users/wndud/RowingRush_VR/RowingRush
+C:/Users/wndud/RowingRush_VR/RowingRush
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 527.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 5.10 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wndud/RowingRush_VR/RowingRush/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d12)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   27.21.14.5191
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023843 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 307.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4355ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1491ms)
+			LoadAssemblies (310ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (493ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (308ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.114584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 256.70 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\wndud\RowingRush_VR\RowingRush\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\wndud\RowingRush_VR\RowingRush\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <44c3723143904fb88deebc993c7bb491>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7427ms)
+		BeginReloadAssembly (482ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (6733ms)
+			LoadAssemblies (526ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1263ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (254ms)
+			SetupLoadedEditorAssemblies (4388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (258ms)
+				BeforeProcessingInitializeOnLoad (560ms)
+				ProcessInitializeOnLoadAttributes (3168ms)
+				ProcessInitializeOnLoadMethodAttributes (290ms)
+				AfterProcessingInitializeOnLoad (105ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 5046 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 308.2 MB.
+System memory in use after: 307.4 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 5516.
+Total: 9.470200 ms (FindLiveObjects: 0.951500 ms CreateObjectMapping: 0.591500 ms MarkObjects: 6.987000 ms  DeleteObjects: 0.937400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset
+  artifactKey: Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset using Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc734349bb4f3a66ed8cdcbe3a8eeb4') in 0.442748 seconds 
+  Import took 0.478165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.739483 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/flagGreen.fbx
+  artifactKey: Guid(b2c239f9b60751e4ab9034c7f2ad66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/flagGreen.fbx using Guid(b2c239f9b60751e4ab9034c7f2ad66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff71d2e1f197674d7fd1f86f37fa9054') in 0.676974 seconds 
+  Import took 0.699300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat
+  artifactKey: Guid(b34ebdee5d4d60b43baa8cb211b29444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat using Guid(b34ebdee5d4d60b43baa8cb211b29444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f28e12a660505ff0deab07cde13cf74') in 0.117041 seconds 
+  Import took 0.143089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat
+  artifactKey: Guid(32e7ed8e6b80b884bbed8260b788648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat using Guid(32e7ed8e6b80b884bbed8260b788648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd3118d0835b07731006df2417ee5c1') in 0.045328 seconds 
+  Import took 0.076025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Gradient.png
+  artifactKey: Guid(4ca1824a2e144f043b9eb7d6e3777659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Gradient.png using Guid(4ca1824a2e144f043b9eb7d6e3777659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730e237ab5606a31b8995575878554dc') in 0.055363 seconds 
+  Import took 0.081127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat
+  artifactKey: Guid(fef45cc204351a9458f02ad7c0243f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat using Guid(fef45cc204351a9458f02ad7c0243f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a11867bd976727ba15f62183761f1c') in 0.035480 seconds 
+  Import took 0.056111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat
+  artifactKey: Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat using Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3228a5142ec04af47ed51ccf00493c3') in 0.033898 seconds 
+  Import took 0.055705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
+  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ab0a256d2caf1052e26700e3152fb6') in 0.055993 seconds 
+  Import took 0.073184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016223 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
+  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ab0a256d2caf1052e26700e3152fb6') in 0.033035 seconds 
+  Import took 0.049636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902819 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(0bf1cf91c5a8dee48a9314fa19895f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(0bf1cf91c5a8dee48a9314fa19895f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc43b72c5c597fd90c747ee1c97c94') in 0.048875 seconds 
+  Import took 0.079507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.436697 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eaa5696fc670eb4d7992a5811068c9') in 0.007671 seconds 
+  Import took 0.026651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076515 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eaa5696fc670eb4d7992a5811068c9') in 0.006925 seconds 
+  Import took 0.021542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 421.338961 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d7bf375483ccdc22be0f1a1adc861') in 0.008078 seconds 
+  Import took 0.026145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.776269 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_6dc76592-a48a-4163-91df-c29ec1a99c66.asset
+  artifactKey: Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_6dc76592-a48a-4163-91df-c29ec1a99c66.asset using Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0006d96f4a0c5920f4a637e913f94d49') in 0.182374 seconds 
+  Import took 0.195245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset
+  artifactKey: Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_88efe361-6f68-4188-bcd0-e9554ca440b9.asset using Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ee57ac8bd754c840cda9549f705c3d') in 0.088803 seconds 
+  Import took 0.102450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset
+  artifactKey: Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset using Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0f95d46a5ded26e2a48ee2729d819544') in 0.098213 seconds 
+  Import took 0.113967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008534 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset
+  artifactKey: Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/TerrainData_ff4b5190-b520-4d46-b960-ee1d0967df26.asset using Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0f95d46a5ded26e2a48ee2729d819544') in 0.098938 seconds 
+  Import took 0.111553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.484423 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/4.asset
+  artifactKey: Guid(abd9fc8a29ea3f549bf82c3d3b8c843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/4.asset using Guid(abd9fc8a29ea3f549bf82c3d3b8c843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '5a690ac14e6fe3c3d4c18bf6a1eeb19a') in 0.095766 seconds 
+  Import took 0.111860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.801982 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/1.asset
+  artifactKey: Guid(dbe8ee5abb1344a4e8a8b80348f13db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/1.asset using Guid(dbe8ee5abb1344a4e8a8b80348f13db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8935720e1b3acc0fcf3e805b7dd920aa') in 0.079840 seconds 
+  Import took 0.094620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.349775 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/2.asset
+  artifactKey: Guid(d9f3564d21751d046890366f3fc55400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/2.asset using Guid(d9f3564d21751d046890366f3fc55400) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0bf1a18a1eb5f348277248c744f1ce87') in 0.066119 seconds 
+  Import took 0.078847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.079114 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/3.asset
+  artifactKey: Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/3.asset using Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'fd300659aabda11f0b5c699d9844c7d0') in 0.056827 seconds 
+  Import took 0.073566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072762 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/3.asset
+  artifactKey: Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/3.asset using Guid(1587ce82db2499e4185b7701bf0d532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'fd300659aabda11f0b5c699d9844c7d0') in 0.063214 seconds 
+  Import took 0.077419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.606460 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/6.asset
+  artifactKey: Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/6.asset using Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e6419ba48b93088c8e24b7f277fa437e') in 0.092438 seconds 
+  Import took 0.111646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075297 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/6.asset
+  artifactKey: Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/6.asset using Guid(c40d5572f8d7d6843bd8d20c21f1c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e6419ba48b93088c8e24b7f277fa437e') in 0.087486 seconds 
+  Import took 0.101053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.214196 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/9.asset
+  artifactKey: Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/9.asset using Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bfb8d5e58e4c95e5fd6587bd8d1f03') in 0.062022 seconds 
+  Import took 0.074830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079939 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/9.asset
+  artifactKey: Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/9.asset using Guid(f2e008cefb3ff674e8c681a3f961fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bfb8d5e58e4c95e5fd6587bd8d1f03') in 0.069925 seconds 
+  Import took 0.081992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.082674 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/8.asset
+  artifactKey: Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/8.asset using Guid(3349f3f4495a62f40895e095545b535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '11433df148c851fc596665674fd0dde5') in 0.081556 seconds 
+  Import took 0.098199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.882951 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/7.asset
+  artifactKey: Guid(b273ce15435a60644bcd2c174476a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/7.asset using Guid(b273ce15435a60644bcd2c174476a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '608cab28f98569ab72871b7c45a23094') in 0.082341 seconds 
+  Import took 0.098446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.201237 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/5.asset
+  artifactKey: Guid(e0829138c40f356458f259edb063d67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/Terrain/5.asset using Guid(e0829138c40f356458f259edb063d67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'dee1f46a52e0433ab3b7a36bbc3f1e24') in 0.080057 seconds 
+  Import took 0.098545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.375374 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Water_mat.mat
+  artifactKey: Guid(3e36df56c6fa5f64085c14d9d4f6f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Water_mat.mat using Guid(3e36df56c6fa5f64085c14d9d4f6f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeec5dad9ac9a90674fcc2500753de6') in 0.092995 seconds 
+  Import took 0.110481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003216 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Water_mat.mat
+  artifactKey: Guid(3e36df56c6fa5f64085c14d9d4f6f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Water_mat.mat using Guid(3e36df56c6fa5f64085c14d9d4f6f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeec5dad9ac9a90674fcc2500753de6') in 0.077915 seconds 
+  Import took 0.087823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.014972 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661341a1d4b1b0542f3ea4c644309ed9') in 0.007180 seconds 
+  Import took 0.019586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.964321 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TeethMaterial.mat
+  artifactKey: Guid(17dd34e8a826d0641a0e0f43da1e03a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TeethMaterial.mat using Guid(17dd34e8a826d0641a0e0f43da1e03a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbc218cee62fbdee9a99142daa1131c') in 0.024748 seconds 
+  Import took 0.037064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Jump.fbx
+  artifactKey: Guid(cbb67ab5509bfe24dba7db2d65a9632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Jump.fbx using Guid(cbb67ab5509bfe24dba7db2d65a9632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e77eb0a5f7017dc86bf658bf0ec895') in 0.507177 seconds 
+  Import took 0.519025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/IdlesWave.fbx
+  artifactKey: Guid(c387a0e47b4244f2b86c50372341024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/IdlesWave.fbx using Guid(c387a0e47b4244f2b86c50372341024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6bfdfee8505b81b05c30a8f3c2e53') in 0.536504 seconds 
+  Import took 0.553260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Runs.fbx
+  artifactKey: Guid(b35bea543177b624b8e504a16956614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Runs.fbx using Guid(b35bea543177b624b8e504a16956614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b84ba75229025ff0e2790ea0166bff') in 0.510771 seconds 
+  Import took 0.526523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Idles.fbx
+  artifactKey: Guid(ce448a8080b4e934b8473badd27be402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Idles.fbx using Guid(ce448a8080b4e934b8473badd27be402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20ba9609e63f0ac8cafc76892111214') in 0.451088 seconds 
+  Import took 0.464621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.040993 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/1.asset
+  artifactKey: Guid(72ced49abfd6b554e8d73cd771596f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/1.asset using Guid(72ced49abfd6b554e8d73cd771596f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4ad3f37880c9a7688c137451928c36') in 0.053690 seconds 
+  Import took 0.073677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/3.asset
+  artifactKey: Guid(d10a6c822ed50c645a3b5f46e680aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/3.asset using Guid(d10a6c822ed50c645a3b5f46e680aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'a83baf16db882aa6c92a55b0131aa241') in 0.060510 seconds 
+  Import took 0.076305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5.asset
+  artifactKey: Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5.asset using Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'c8ca5d589b8d8d00c9295d3185e65b56') in 0.084196 seconds 
+  Import took 0.099205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/2.asset
+  artifactKey: Guid(5ff7fedcc32b62242aefb91a503368a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/2.asset using Guid(5ff7fedcc32b62242aefb91a503368a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '13614940c67e2b45cc08e2229558e5b5') in 0.058646 seconds 
+  Import took 0.073799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/7.asset
+  artifactKey: Guid(aac11265940de704cb25cbef039795b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/7.asset using Guid(aac11265940de704cb25cbef039795b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e6a170316f8675ade4c2cf17697a5cfb') in 0.074962 seconds 
+  Import took 0.089850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/4.asset
+  artifactKey: Guid(37a23a59272ebf6458b1c3f159abc2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/4.asset using Guid(37a23a59272ebf6458b1c3f159abc2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '0280e8515af0b20f5819e9554d7b3ce1') in 0.083729 seconds 
+  Import took 0.097763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9.asset
+  artifactKey: Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9.asset using Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1a1e8a2200d8ce604b574225aa1d4c') in 0.061225 seconds 
+  Import took 0.077464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6.asset
+  artifactKey: Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6.asset using Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '7fd48a169fbed49fe06685fbee8de48e') in 0.067860 seconds 
+  Import took 0.082189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8.asset
+  artifactKey: Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8.asset using Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '26d609c484eb9b5e2f89f1781994e9d6') in 0.070455 seconds 
+  Import took 0.080696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.577369 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/1(new).asset
+  artifactKey: Guid(72ced49abfd6b554e8d73cd771596f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/1(new).asset using Guid(72ced49abfd6b554e8d73cd771596f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8677ef98c8566019bad79af2cd82b218') in 0.101788 seconds 
+  Import took 0.119826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.662491 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/2(new).asset
+  artifactKey: Guid(5ff7fedcc32b62242aefb91a503368a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/2(new).asset using Guid(5ff7fedcc32b62242aefb91a503368a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'd92ee41ce7191c6bf03b0f66962f06a6') in 0.100237 seconds 
+  Import took 0.116205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.736694 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/3(new).asset
+  artifactKey: Guid(d10a6c822ed50c645a3b5f46e680aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/3(new).asset using Guid(d10a6c822ed50c645a3b5f46e680aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e82c0bd24b33fb33471c7ef0183da1d7') in 0.068110 seconds 
+  Import took 0.079990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.092929 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/4(new).asset
+  artifactKey: Guid(37a23a59272ebf6458b1c3f159abc2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/4(new).asset using Guid(37a23a59272ebf6458b1c3f159abc2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'bf8702152c56267ad3d438eef38c647f') in 0.084433 seconds 
+  Import took 0.101359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.414489 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5(new).asset
+  artifactKey: Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5(new).asset using Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '9993d4bd24ae1122da014cf855c9ecc9') in 0.099792 seconds 
+  Import took 0.113972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.185839 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6(new).asset
+  artifactKey: Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6(new).asset using Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '50915d92098dda8a30c43604449c10b2') in 0.101941 seconds 
+  Import took 0.117045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.578421 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/7(new).asset
+  artifactKey: Guid(aac11265940de704cb25cbef039795b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/7(new).asset using Guid(aac11265940de704cb25cbef039795b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '2152448bbf84ed1e83f6dac8cf7cbba2') in 0.105405 seconds 
+  Import took 0.118209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.418465 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8(new).asset
+  artifactKey: Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8(new).asset using Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '079677316e40771da03d642d81ce3b61') in 0.101269 seconds 
+  Import took 0.116914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.065117 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset
+  artifactKey: Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset using Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc91cac281e174535baf819afdf698c') in 0.097061 seconds 
+  Import took 0.114805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031582 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset
+  artifactKey: Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset using Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc91cac281e174535baf819afdf698c') in 0.065142 seconds 
+  Import took 0.079226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.212777 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5(new).asset
+  artifactKey: Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/5(new).asset using Guid(a479e29274aa3ea468210e35228760e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '52815868a8fa986d0f7a880ee2aa8a6f') in 0.139556 seconds 
+  Import took 0.158381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset
+  artifactKey: Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/9(new).asset using Guid(0e53bd13219535040ba4388a4278b4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ba47d18e25bd1066cd7807cf905b4') in 0.068990 seconds 
+  Import took 0.081321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6(new).asset
+  artifactKey: Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/6(new).asset using Guid(00f8fd8d676ccf64b937aa8c4d9c103c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '1dac3aac337c28d3346dbfe1ab0d0341') in 0.081244 seconds 
+  Import took 0.097079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8(new).asset
+  artifactKey: Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/New Terrain/8(new).asset using Guid(fef52da03b564be40a9752be568d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'f0d5b0bb9d249d75812b10a93dd43965') in 0.093061 seconds 
+  Import took 0.104096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.086639 seconds.
+  path: Assets/Boats/Source/OldWoodenRowboat.FBX
+  artifactKey: Guid(2cfac36f1468dae4eb63714c65986e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Source/OldWoodenRowboat.FBX using Guid(2cfac36f1468dae4eb63714c65986e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bf69a4f47cc7c12d5e8cba6dac3d34') in 0.227448 seconds 
+  Import took 0.244328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.086533 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b09d2998382d3be4cbd4a8b8a6410') in 0.009173 seconds 
+  Import took 0.019294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082170 seconds.
+  path: Assets/Scene/SceneUI/GameRoom.unity
+  artifactKey: Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/SceneUI/GameRoom.unity using Guid(afdf3d56f5487664ebf81c657a660789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b09d2998382d3be4cbd4a8b8a6410') in 0.007352 seconds 
+  Import took 0.020531 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
